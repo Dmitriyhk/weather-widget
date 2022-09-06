@@ -1,15 +1,22 @@
 <template>
-  <div>lalla</div>
+  <WeatherPage />
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script>
+import WeatherPage from "@/pages/WeatherPage";
 
-export default defineComponent({
-  setup() {
-    return {};
-  },
-});
+export default {
+  components: { WeatherPage },
+};
 </script>
 
-<style scoped></style>
+<style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;400;600&display=swap");
+
+* {
+  font-family: "Public Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+</style>
