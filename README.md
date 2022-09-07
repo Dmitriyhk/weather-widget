@@ -10,7 +10,8 @@
       js.src = "https://raspy-linen.surge.sh/widget-loader.js";
       document.getElementsByTagName("head")[0].appendChild(js);
     </script>
-    ```
+ ```
+ 
   Я встроил виджет в свое реакт-приложение. На это можно посмотреть [тут](scrawny-nation.surge.sh)
 
 ## Project setup
